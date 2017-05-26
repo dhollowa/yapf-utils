@@ -1,0 +1,5 @@
+{
+  "atom-text-editor[data-grammar='source python']:not([mini])": {
+    "ctrl-c f": "yapf-utils:format-selection"
+  }
+}

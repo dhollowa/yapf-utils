@@ -1,0 +1,34 @@
+{
+  "name": "yapf-utils",
+  "author": "David Holloway <davidh@slugworth.com>",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Yet another package for running yapf-format.",
+  "keywords": [
+    "yapf",
+    "format",
+    "yapf-format",
+    "python"
+  ],
+  "repository": "https://github.com/dhollowa/yapf-utils",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "formatExecutable": {
+      "title": "The yapf-format executable.",
+      "description": "Specify full path to override shell default",
+      "type": "string",
+      "default": "yapf"
+    },
+    "formatBaseStyle": {
+      "title": "Code formatting base style.",
+      "description": "Currently one of pep8, google, empty, or path to style file.",
+      "type": "string",
+      "default": ""
+    }
+  }
+}
